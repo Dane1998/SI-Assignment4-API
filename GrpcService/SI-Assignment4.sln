@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76CE4B0C-D2F3-45CF-B9AD-2E6584B397D4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServices", "GrpcServices\GrpcServices.csproj", "{E10744E2-8B42-4B1D-97C3-0EB7953E8675}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService", "BookService\BookService.csproj", "{98211087-2804-4BD5-AD66-2817619ED369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E10744E2-8B42-4B1D-97C3-0EB7953E8675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10744E2-8B42-4B1D-97C3-0EB7953E8675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10744E2-8B42-4B1D-97C3-0EB7953E8675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10744E2-8B42-4B1D-97C3-0EB7953E8675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98211087-2804-4BD5-AD66-2817619ED369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98211087-2804-4BD5-AD66-2817619ED369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98211087-2804-4BD5-AD66-2817619ED369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98211087-2804-4BD5-AD66-2817619ED369}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62E110CC-E092-4E0B-8AF5-C3806B0D7185}
+	EndGlobalSection
+EndGlobal

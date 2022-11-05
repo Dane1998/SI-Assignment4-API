@@ -1,0 +1,36 @@
+﻿syntax = "proto3";
+option csharp_namespace = "GrpcServices";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  rpc BuyBook(BuyBookRequest) returns(Response);
+  rpc GetAllBooks (Something) returns (ReplyList);
+  rpc ReturnBook (ReturnBookRequest) returns (Response);
+}
+
+message BuyBookRequest {
+	int32 BookId = 1;
+}
+
+message BookReply {
+	string Title = 1;
+	string Author = 2;
+	string Class = 3;
+	double Price = 4;
+}
+
+message Response {
+	bool IsSuccess = 1;
+}
+
+message ReplyList{
+	
+}
+
+message ReturnBookRequest {
+	int32 BookId = 1;
+}
+
+message Something{}

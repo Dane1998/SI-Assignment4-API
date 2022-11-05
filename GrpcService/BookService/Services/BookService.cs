@@ -36,7 +36,6 @@ namespace BookService.Service
                 new BuyBookRequest
                 {
                     BookId = buyBook.BookId,
-                    StudentId = buyBook.StudentId
                 }).IsSuccess;
         }
 

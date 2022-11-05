@@ -26,7 +26,7 @@ message Response {
 }
 
 message ReplyList{
-	
+	BookReply bookReply = 1;
 }
 
 message ReturnBookRequest {
